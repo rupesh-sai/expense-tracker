@@ -4,7 +4,7 @@ const app = express();
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-const URI = 'mongodb://127.0.0.1:27017/expenseDB';
+const URI = "mongodb+srv://rupeshsaimacharla123:oHUGIMemRlaCrQpt@cluster0.ratuj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 const expenseSchema = new mongoose.Schema({
     category : String,
     amount : String,
